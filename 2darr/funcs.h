@@ -15,6 +15,9 @@ int returnMax1s(vector<vector<int>>v){
         }
     }   return ans;
 }
+void print2dVector(vector<vector<int>>v){
+    for (auto x:v){for (auto y:x){cout<<y<<"\t";}cout<<"\n";}
+}
 vector<int>takeInputVector(int n){
     vector<int>ans; for (int i=0;i<n;i++){int x;cin>>x;ans.push_back(x);}   return ans;
 }
